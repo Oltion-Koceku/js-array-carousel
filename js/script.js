@@ -1,3 +1,4 @@
+
 const imgs = [
 "assets/img/01.webp",
 "assets/img/02.webp",
@@ -19,13 +20,18 @@ for (let i = 0; i < imgs.length; i++) {
 }
 
 const imgAll = document.getElementsByClassName("img-ol");
+const imgSmall = document.getElementsByClassName("img-small")
 
 imgAll[contatore].classList.remove("d-none")
 
+
 buttonSu.addEventListener("click", function(){
   imgAll[contatore].classList.add("d-none")
+  imgSmall[contatore].classList.remove("bordo-bianco")
   contatore--;
+  imgSmall[contatore].classList.add("bordo-bianco")
   imgAll[contatore].classList.remove("d-none")
+
 
   if(contatore === 0){
     buttonSu.classList.add("d-none")
@@ -36,8 +42,11 @@ buttonSu.addEventListener("click", function(){
 
 buttonGiu.addEventListener("click", function(){
   imgAll[contatore].classList.add("d-none")
+  imgSmall[contatore].classList.remove("bordo-bianco")
+
   contatore++;
   imgAll[contatore].classList.remove("d-none")
+  imgSmall[contatore].classList.add("bordo-bianco")
 
   if(contatore === imgs.length - 1){
     buttonGiu.classList.add("d-none")

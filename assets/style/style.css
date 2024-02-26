@@ -46,3 +46,11 @@ height: 100%;
 width: 200px;
 }
 
+.colonnine{
+  height: calc(350px / 5);
+}
+.bordo-bianco{
+border: 5px solid white;
+}
+
+

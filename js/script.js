@@ -28,8 +28,23 @@ buttonSu.addEventListener("click", function(){
   imgAll[contatore].classList.remove("d-none")
 
   if(contatore === 0){
-    buttonSu.
+    buttonSu.classList.add("d-none")
+  }else if(contatore === imgs.length - 2){
+    buttonGiu.classList.remove("d-none")
   }
+})
+
+buttonGiu.addEventListener("click", function(){
+  imgAll[contatore].classList.add("d-none")
+  contatore++;
+  imgAll[contatore].classList.remove("d-none")
+
+  if(contatore === imgs.length - 1){
+    buttonGiu.classList.add("d-none")
+  }else if(contatore === 1){
+    buttonSu.classList.remove("d-none")
+  }
+  
 })
 
 

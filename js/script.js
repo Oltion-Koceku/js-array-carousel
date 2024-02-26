@@ -23,6 +23,8 @@ const imgAll = document.getElementsByClassName("img-ol");
 const imgSmall = document.getElementsByClassName("img-small")
 
 imgAll[contatore].classList.remove("d-none")
+imgSmall[contatore].classList.add("bordo-bianco")
+imgSmall[contatore].classList.remove("trasparente")
 
 
 buttonSu.addEventListener("click", function(){

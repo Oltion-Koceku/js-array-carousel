@@ -12,11 +12,12 @@
   height: 30px;
   width: 30px;
   position:absolute;
-  background-color: rgba(85, 77, 77, 0.5);
+  /* background-color: rgba(85, 77, 77, 0.5); */
 }
 
 .button-su{
 left: 89%;
+top: 10px;
 }
 
 .button-giu{
@@ -44,6 +45,10 @@ height: 100%;
 .container-ol .colonna-2{
 height: 100%;
 width: 200px;
+}
+
+.trasparente{
+opacity: 0.8;
 }
 
 .colonnine{

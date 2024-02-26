@@ -23,5 +23,7 @@ Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di 
 3. creiamo un cilo infinito con FOR per scoprire e utilizzare la lunghezza delle immagini
   - inseriamo all'interno della colonna le nostre immagini con d-none
 4. creiamo una costante per prendere tutti le immagini con una classe
-  -le colleggiamo con il contatore
-3. con add listener configuriamo il bottone che sposterà le immagini 
+  - le colleggiamo con il contatore
+5. con add listener configuriamo il bottone che sposterà le immagini 
+  - aggiungiamo o togliamo il d-none per far visualizzare l'immagine
+  - aggiungiamo un IF per togliere il bottone quando non ci saranno più immagini da far vedere

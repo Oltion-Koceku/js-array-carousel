@@ -19,5 +19,9 @@ Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di 
 ## Svolgimento:
 
 1. Creazione array con le immagini da inserire
-2. creiamo un cilo infinito con FOR per scoprire e utilizzare la lunghezza delle immagini
+2. creiamo le costanti delle colonne e bottoni
+3. creiamo un cilo infinito con FOR per scoprire e utilizzare la lunghezza delle immagini
+  - inseriamo all'interno della colonna le nostre immagini con d-none
+4. creiamo una costante per prendere tutti le immagini con una classe
+  -le colleggiamo con il contatore
 3. con add listener configuriamo il bottone che sposterà le immagini 
